@@ -15,7 +15,7 @@
 </template>
 
 <script>
-const API_URL = "http://localhost:8080/count";
+const API_URL = "http://localhost:3000/count";
 
 export default {
 	name: "App",

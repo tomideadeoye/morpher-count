@@ -1,10 +1,10 @@
 {
-	"name": "joe",
+	"name": "morpher-count-app",
 	"version": "1.0.0",
 	"description": "",
 	"main": "app.js",
 	"scripts": {
-		"start": "cd counter-ui && npm run build && cd .. && nodemon app.js",
+		"start": "cd counter-ui && npm install && npm run build && cd .. &&  nodemon app.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],

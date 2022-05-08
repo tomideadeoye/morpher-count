@@ -1,0 +1,17 @@
+version: "3.5"
+
+services:
+  api:
+    build: ./api/
+    volumes:
+      - myapp:/home
+    ports:
+      - "3000:3000"
+
+volumes:
+  myapp:
+# commands
+# docker-compose up --build
+# docker build -f Dockerfile -t api .
+# docker run -it -p 4000:4000 api
+
