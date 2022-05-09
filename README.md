@@ -9,4 +9,4 @@ Github: https://github.com/tomideadeoye/morpher-count.git
 Docker Hub: https://hub.docker.com/r/tomidetoluadeoye/morpher-count
 
 # flow
-![alt text](./morpher-count.jpg)
+![alt text](./Morpher-Count-Assignment.jpg)
