@@ -2,10 +2,6 @@
 	<div class="container">
 		<div class="counter">{{ count.message }}</div>
 		<form @submit.prevent="addCount" class="mb-3">
-			<div v-if="error" class="alert alert-dismissible alert-warning">
-				<button type="button" class="close" data-dismiss="alert">×</button>
-			</div>
-
 			<button type="submit" class="btn btn-primary">Increment</button>
 			<button type="button" class="btn btn-primary" @click="resetCount()">
 				Reset
@@ -15,7 +11,7 @@
 </template>
 
 <script>
-const API_URL = "http://localhost:3000/count";
+const API_URL = "/count";
 
 export default {
 	name: "App",

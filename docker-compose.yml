@@ -14,4 +14,7 @@ volumes:
 # docker-compose up --build
 # docker build -f Dockerfile -t api .
 # docker run -it -p 4000:4000 api
-
+# docker run -d --publish 3000:3000 count-morph
+# docker buildx build --platform=linux/amd64 -t count-morph .
+# docker tag count-morph:latest 791713453122.dkr.ecr.us-east-1.amazonaws.com/count-morph:update1
+# docker push 791713453122.dkr.ecr.us-east-1.amazonaws.com/count-morph:update1
